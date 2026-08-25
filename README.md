@@ -6,10 +6,17 @@ I enjoy working at the intersection of computational neuroscience and neural eng
 
 #### Neural signal analysis & data engineering
 - **[`eeg-feat-ext`](https://github.com/khan-u/eeg-feat-ext)**
-  High-throughput pipeline for extracting cycle-level theta waveform features from human iEEG, built to support a waveform-shape control analysis which revealed HPC phase-amplitude coupling as a biomarker for memory.
+  Human iEEG feature extraction (Python + MATLAB) — high-throughput, cycle-level theta waveform features; supported the waveform-shape control analysis that revealed hippocampal phase–amplitude coupling as a memory biomarker.
 
 - **[`theta-feat-warehouse`](https://github.com/khan-u/theta-feat-warehouse)**
-  An Airflow pipeline that loads the `eeg-feat-ext` theta features into a DuckDB/SQL warehouse, gates them through 12 data-quality checks, runs paired permutation tests, and publishes the results to an offline dashboard and [Tableau](https://public.tableau.com/app/profile/umais.khan3104/viz/iEEGFeatureWarehouse/Dashboard1_1). Reads real iEEG through an NWB bridge ([DANDI 000673](https://dandiarchive.org/dandiset/000673)).
+  Airflow + DuckDB/SQL warehouse (Python) over the `eeg-feat-ext` features — 12 data-quality gates, paired permutation tests, published to an offline dashboard and [Tableau](https://public.tableau.com/app/profile/umais.khan3104/viz/iEEGFeatureWarehouse/Dashboard1_1); reads real iEEG via a Neurodata Without Borders (NWB) bridge ([DANDI 000673](https://dandiarchive.org/dandiset/000673)).
+
+#### Networked systems & measurement
+- **[`prox-voice`](https://github.com/khan-u/prox-voice)**
+  Peer-to-peer WebRTC voice mesh in the browser (TypeScript + C++) — audio links form by in-world proximity, no media server. Ground-truth mouth-to-ear latency measured with a custom acoustic rig (C = 66 ± 11 ms, five captures).
+
+- **[`prox-voice-pipeline`](https://github.com/khan-u/prox-voice-pipeline)**
+  Spark + dbt + Great Expectations + Airflow pipeline (Python) over the mesh telemetry — rebuilds the report figures from warehouse tables and checks every number against the originals.
 
 #### Open-source contributions
 Contributing to **[`movement`](https://github.com/neuroinformatics-unit/movement)** (UCL Neuroinformatics Unit), a Python library for animal-tracking data:
