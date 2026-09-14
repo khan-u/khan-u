@@ -21,7 +21,7 @@ I enjoy working at the intersection of computational neuroscience and neural eng
 #### Open-source contributions
 Contributing to **[`movement`](https://github.com/neuroinformatics-unit/movement)** (UCL Neuroinformatics Unit), a Python library for animal-tracking data:
 - **Collective-behavior metrics:** proposed a metric suite ([#873](https://github.com/neuroinformatics-unit/movement/issues/873)), added `compute_polarization()` ([#875](https://github.com/neuroinformatics-unit/movement/pull/875)), and a skeleton-agnostic anterior/posterior body-axis inference pipeline ([#945](https://github.com/neuroinformatics-unit/movement/pull/945)).
-- **3D vector utilities:** Cartesian/cylindrical/spherical coordinate transforms ([#948](https://github.com/neuroinformatics-unit/movement/pull/948)), being resubmitted as focused PRs per maintainer feedback ([#1036](https://github.com/neuroinformatics-unit/movement/issues/1036), [#1058](https://github.com/neuroinformatics-unit/movement/issues/1058)).
+- **3D vector utilities:** Cartesian/cylindrical/spherical coordinate transforms ([#948](https://github.com/neuroinformatics-unit/movement/pull/948)), being resubmitted as focused PR ([#1101](https://github.com/neuroinformatics-unit/movement/pull/1101)) per maintainer feedback ([#1036](https://github.com/neuroinformatics-unit/movement/issues/1036), [#1058](https://github.com/neuroinformatics-unit/movement/issues/1058)).
 
 #### Focus
 - Neuronal encoding ⇄ decoding
