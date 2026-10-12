@@ -13,7 +13,7 @@ I enjoy working at the intersection of computational neuroscience and neural eng
 
 #### Networked systems & measurement
 - **[`prox-voice`](https://github.com/khan-u/prox-voice)**
-  Peer-to-peer WebRTC voice mesh in the browser (TypeScript + C++) — audio links form by in-world proximity, no media server. Ground-truth mouth-to-ear latency measured with a custom acoustic rig (C = 66 ± 11 ms, five captures).
+  Browser-based proximity voice mesh (TypeScript) with peer-to-peer WebRTC audio and TURN relay support. Includes a custom latency-measurement rig with C++ signal processing, automated experiment harnesses, and pilot recordings and analysis code.
 
 - **[`prox-voice-pipeline`](https://github.com/khan-u/prox-voice-pipeline)**
   Spark + dbt + Great Expectations + Airflow pipeline (Python) over the mesh telemetry — rebuilds the report figures from warehouse tables and checks every number against the originals.
