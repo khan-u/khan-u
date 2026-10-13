@@ -12,7 +12,7 @@ I enjoy working at the intersection of computational neuroscience and neural eng
   Airflow + DuckDB/SQL warehouse (Python) over the `eeg-feat-ext` features — 12 data-quality gates, paired permutation tests, published to an offline dashboard and [Tableau](https://public.tableau.com/app/profile/umais.khan3104/viz/iEEGFeatureWarehouse/Dashboard1_1); reads real iEEG via a Neurodata Without Borders (NWB) bridge ([DANDI 000673](https://dandiarchive.org/dandiset/000673)).
 
 #### Networked systems & measurement
-- **[`prox-voice`](https://github.com/khan-u/prox-voice)**
+- **[`EarShot`](https://github.com/khan-u/EarShot)**
   Browser-based proximity voice mesh (TypeScript) with peer-to-peer WebRTC audio and TURN relay support. Includes a custom latency-measurement rig with C++ signal processing, automated experiment harnesses, and pilot recordings and analysis code.
 
 - **[`prox-voice-pipeline`](https://github.com/khan-u/prox-voice-pipeline)**
